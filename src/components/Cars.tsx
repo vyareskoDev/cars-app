@@ -12,7 +12,7 @@ const Cars: React.FunctionComponent<CarsProps> = ({cars}) => {
         <section className="cars">
             {
                 cars.map(({manufacturer, model, price, description, image}) => {
-
+                    
                 })
             }
         </section>

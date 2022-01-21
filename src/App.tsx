@@ -3,6 +3,7 @@ import ImageInterface from './interfaces/ImageInterface';
 import Cars from './components/Cars';
 import './App.css';
 import CarInterface from './interfaces/CarInterface';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       manufacturer: "Tesla",
       price: "69.000$",
       description: "This is cool Tesla car",
-      image: {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tesla_Cybertruck_outside_unveil_modified_by_Smnt.jpg/1200px-Tesla_Cybertruck_outside_unveil_modified_by_Smnt.jpg", width: 1000, height: 500, alt: "Audi Q5"} as ImageInterface
+      image: {src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tesla_Cybertruck_outside_unveil_modified_by_Smnt.jpg/1200px-Tesla_Cybertruck_outside_unveil_modified_by_Smnt.jpg", width: 1000, height: 500, alt: "Tesla C"} as ImageInterface
     },
     {
       model: "Arteon",

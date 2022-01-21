@@ -9,11 +9,11 @@ const Car: React.FunctionComponent<CarInterface> = ({manufacturer, price, model,
                     <span>{manufacturer} {model}</span>
                     <span>{price}</span>
                 </Card.Title>
-                <Card.Img></Card.Img>
-                
+                <Card.Img variant="top" src={image.src} alt={image.alt}>
+                    
+                </Card.Img>
             </Card.Header>
             <Card.Body>
-                
                 {description}
             </Card.Body>
         </Card>
