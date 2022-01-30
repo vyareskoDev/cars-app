@@ -12,10 +12,8 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "body-parser": "^1.19.1",
-    "dotenv": "^14.2.0",
     "express": "^4.17.2",
     "mongodb": "^4.3.0",
-    "nodemon": "^2.0.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
@@ -45,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.2",
+    "mongoose": "^6.1.8",
+    "nodemon": "^2.0.15"
   }
 }
