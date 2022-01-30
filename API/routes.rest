@@ -1,0 +1,35 @@
+GET http://localhost:8000/cars
+
+###
+
+GET http://localhost:8000/cars/61f67c42145307936b760c52
+
+###
+
+POST http://localhost:8000/cars
+Content-Type: application/json
+
+{
+    "model": "Cybertruck",
+    "manufacturer": "Tesla",
+    "price": 60000,
+    "description": "This is Tesla Cybertruck, boys",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.motor1.com%2Fimages%2Fmgl%2FZpPjN%2Fs1%2Ftesla-cybertruck-source-factum-tech.jpg"
+}
+
+###
+
+DELETE http://localhost:8000/cars/61f67c41145307936b760c50
+
+###
+
+PATCH http://localhost:8000/cars/61f67c42145307936b760c52
+Content-Type: application/json
+
+{
+    "model": "What?",
+    "manufacturer": "I dunno",
+    "price": 40000,
+    "description": "This is fucking I dunno What, boys",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fperformancedrive.com.au%2Fwp-content%2Fuploads%2F2020%2F09%2F2021-Audi-Q5-Sportback.jpg"
+}

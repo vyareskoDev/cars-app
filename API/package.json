@@ -1,22 +1,19 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "This is API for my cars app project",
-  "main": "app.js",
-  "scripts": {
-    "start": "nodemon app.js"
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
   },
-  "keywords": [
-    "NodeJS",
-    "JS",
-    "REST",
-    "API"
-  ],
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
   "author": "vYareskoDev",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.2",
-    "mongoose": "^6.1.7",
+  "devDependencies": {
+    "dotenv": "^14.3.2",
     "nodemon": "^2.0.15"
   }
 }
